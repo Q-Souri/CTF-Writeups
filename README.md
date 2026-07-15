@@ -1,2 +1,21 @@
 # CTF-Writeups
-Technical write ups about 5 Flags I have captured. 1) Web Security challenge about Python Pickle deserialization. 2) Web Security: PHP PHAR files and unsafe deserialization. 3) Web Security: JSON Web Tokens. 4) Crypto: flag was hidden inside obfuscated JavaScript code.  5)file upload bypass, Local File Inclusion and Remote Code Execution
+# Offensive Security Portfolio
+
+Welcome!
+
+This repository contains write-ups from Capture The Flag challenges, penetration testing labs and security research.
+
+## Topics
+
+- Web Exploitation
+- JWT
+- Insecure Deserialization
+- SQL Injection
+- Linux
+- Windows
+- Privilege Escalation
+- Active Directory
+- Network Enumeration
+- Malware Analysis
+
+These write-ups demonstrate my methodology, problem-solving process and technical documentation skills.
