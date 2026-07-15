@@ -32,7 +32,6 @@ curl https://ctf.pwn.careers/jwt_of_the_jungle/
 
 This confirmed that the challenge required authentication before further interaction.
 
-> **Screenshot:** Home page of the challenge.
 
 ---
 
