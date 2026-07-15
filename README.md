@@ -14,8 +14,7 @@ This repository contains write-ups from Capture The Flag challenges, penetration
 - Linux
 - Windows
 - Privilege Escalation
-- Active Directory
 - Network Enumeration
-- Malware Analysis
+
 
 These write-ups demonstrate my methodology, problem-solving process and technical documentation skills.
