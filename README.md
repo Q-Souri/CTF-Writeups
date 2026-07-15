@@ -1,26 +1,32 @@
-# CTF-Writeups
 # Offensive Security Portfolio
+
+Welcome to my Offensive Security Portfolio.
+
+This repository contains my practical cybersecurity work completed through Capture The Flag (CTF) challenges, home laboratory exercises, and penetration testing practice.
+
+## About Me
+
+I am an MSc Cybersecurity graduate with a strong interest in penetration testing, offensive security, and ethical hacking. I enjoy analysing applications, identifying security weaknesses, and documenting my methodology in a clear and structured manner.
+
+## Skills Demonstrated
+
+- Web Application Security
+- Authentication Testing
+- JSON Web Tokens (JWT)
+- Directory Enumeration
+- Password Cracking
+- Python Scripting
+- Linux
+- HTTP Analysis
+- Security Research
+
+## CTF Write-ups
+
+- JWT of the Jungle *(Completed)*
+- PHARmacy Secrets *(Coming Soon)*
+- Pickled Peril *(Coming Soon)*
+- Lost in Obfuscation *(Coming Soon)*
 
 ## Disclaimer
 
-These write-ups are for educational purposes only.
-
-No real systems were targeted. All activities were performed in legal CTF platforms or intentionally vulnerable laboratory environments.
-
-Welcome!
-
-This repository contains write-ups from Capture The Flag challenges, penetration testing labs and security research.
-
-## Topics
-
-- Web Exploitation
-- JWT
-- Insecure Deserialization
-- SQL Injection
-- Linux
-- Windows
-- Privilege Escalation
-- Network Enumeration
-
-
-These write-ups demonstrate my methodology, problem-solving process and technical documentation skills.
+All work in this repository was performed against intentionally vulnerable laboratory environments and Capture The Flag platforms for educational purposes only.
