@@ -96,11 +96,11 @@ Try Hack me rooms, OverTheWire, CTF Platforms, learning from PortSwigger platfor
 
 # Contact
 
-- 🌐 **GitHub Profile:** https://github.com/Q-Souri
-📂 **Penetration Testing Portfolio:** https://github.com/Q-Souri/Offensive-Security-Portfolio
-
-- 💼 LinkedIn: https://www.linkedin.com/in/soori-q-a5b843227/
-- 📝 **Personal Website:** Coming soon...
+🌐 GitHub: https://github.com/Q-Souri
+📂 Penetration Testing Portfolio: https://github.com/Q-Souri/Offensive-Security-Portfolio
+🏴 TryHackMe: https://tryhackme.com/p/soori
+💼 LinkedIn: https://www.linkedin.com/in/soori-q-a5b843227/
+📝 **Personal Website:** Coming soon...
 
 ---
 
