@@ -47,8 +47,6 @@ Obtain a valid JWT for further analysis.
 
 A JWT token was successfully obtained.
 
-> **Screenshot:** Login response containing the JWT.
-
 ---
 
 ### Step 3 – Decode the JWT
@@ -76,8 +74,6 @@ The decoded payload revealed:
 
 This suggested that changing the **role** field to **admin** might provide elevated privileges.
 
-> **Screenshot:** Decoded JWT payload.
-
 ---
 
 ### Step 4 – Discover Hidden Endpoints
@@ -97,8 +93,6 @@ The scan discovered an administrative endpoint:
 ```
 
 Although the endpoint existed, it returned **HTTP 403 Forbidden**, indicating that additional privileges were required.
-
-> **Screenshot:** Gobuster results.
 
 ---
 
@@ -120,8 +114,6 @@ Hashcat successfully recovered the signing secret:
 ```
 secret
 ```
-
-> **Screenshot:** Successful Hashcat output.
 
 ---
 
@@ -162,7 +154,6 @@ forged = jwt.encode(decoded, secret, algorithm="HS256")
 
 The forged token was accepted because it had been correctly signed using the recovered secret.
 
-> **Screenshot:** Forged administrator JWT.
 
 ---
 
@@ -182,7 +173,7 @@ The request succeeded and the application returned the challenge flag.
 **Flag**
 
 ```
-CTF{jwt_token_tampering}
+CTF{###############}
 ```
 
 > **Screenshot:** Successful access to the administrator page and flag.
