@@ -17,6 +17,18 @@ When Python deserializes an untrusted pickle object, arbitrary code can be execu
 
 This challenge exploited a server that accepted a user-supplied pickle object and deserialized it without any safety checks, resulting in a Remote Code Execution (RCE) vulnerability.
 
+## Skills Demonstrated
+
+- Web Application Security
+- Python Deserialization
+- Remote Code Execution (RCE)
+- Reconnaissance
+- Enumeration
+- Linux
+- HTTP Analysis
+- Payload Development
+- Problem Solving
+
 ## Tools Used
 
 - ping
@@ -113,8 +125,12 @@ The challenge was successfully completed.
 
 **Flag**
 
-```text
-CTF{#############}
+with:
+
+```markdown
+**Outcome**
+
+The vulnerability was successfully exploited and the challenge objective was achieved.
 ```
 
 ## Lessons Learned
@@ -127,21 +143,19 @@ This challenge reinforced several important penetration testing concepts:
 - Methodical testing and persistence are often more important than knowing the solution immediately.
 - Remote Code Execution (RCE) vulnerabilities can have severe consequences when user-controlled data is deserialized.
 
-## Skills Demonstrated
+## Security Recommendations
 
-- Web Application Testing
-- Python
-- Linux
-- Reconnaissance
-- Enumeration
-- HTTP Analysis
-- Remote Code Execution (RCE)
-- Python Pickle Deserialization
-- Problem Solving
+To mitigate this vulnerability:
 
-## References
+- Never deserialize untrusted data using Python's `pickle` module.
+- Use safer serialization formats such as JSON whenever possible.
+- Validate and sanitize all user-supplied input.
+- Apply the principle of least privilege to services handling uploaded or external data.
+- Avoid exposing detailed error messages that could assist attackers during reconnaissance.
 
-- Platform: Pwn.Careers
-- Challenge: What a Pickle
+## MITRE ATT&CK Mapping
 
-- 
+| Technique | ID | Reason |
+|----------|----|--------|
+| Exploit Public-Facing Application | T1190 | The challenge involved exploiting a vulnerable web application. |
+| Command and Scripting Interpreter | T1059 | The malicious pickle payload executed operating system commands on the server. |
